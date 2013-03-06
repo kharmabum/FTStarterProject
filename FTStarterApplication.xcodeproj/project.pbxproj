@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C653DB716E7FB0C00B81430 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DB616E7FB0C00B81430 /* UIKit.framework */; };
+		9C653DB916E7FB0C00B81430 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DB816E7FB0C00B81430 /* Foundation.framework */; };
+		9C653DBB16E7FB0C00B81430 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DBA16E7FB0C00B81430 /* CoreGraphics.framework */; };
+		9C653DC116E7FB0C00B81430 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DBF16E7FB0C00B81430 /* InfoPlist.strings */; };
+		9C653DC316E7FB0C00B81430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653DC216E7FB0C00B81430 /* main.m */; };
+		9C653DC716E7FB0C00B81430 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653DC616E7FB0C00B81430 /* FTAppDelegate.m */; };
+		9C653DC916E7FB0C00B81430 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DC816E7FB0C00B81430 /* Default.png */; };
+		9C653DCB16E7FB0C00B81430 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DCA16E7FB0C00B81430 /* Default@2x.png */; };
+		9C653DCD16E7FB0C00B81430 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DCC16E7FB0C00B81430 /* Default-568h@2x.png */; };
+		9C653DD016E7FB0C00B81430 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DCE16E7FB0C00B81430 /* MainStoryboard_iPhone.storyboard */; };
+		9C653DD316E7FB0C00B81430 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DD116E7FB0C00B81430 /* MainStoryboard_iPad.storyboard */; };
+		9C653DD616E7FB0C00B81430 /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653DD516E7FB0C00B81430 /* FTViewController.m */; };
+		9C653DDE16E7FB0C00B81430 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DDD16E7FB0C00B81430 /* SenTestingKit.framework */; };
+		9C653DDF16E7FB0C00B81430 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DB616E7FB0C00B81430 /* UIKit.framework */; };
+		9C653DE016E7FB0C00B81430 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DB816E7FB0C00B81430 /* Foundation.framework */; };
+		9C653DE816E7FB0C00B81430 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DE616E7FB0C00B81430 /* InfoPlist.strings */; };
+		9C653DEB16E7FB0D00B81430 /* FTStarterApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653DEA16E7FB0D00B81430 /* FTStarterApplicationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C653DE116E7FB0C00B81430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C653DAB16E7FB0C00B81430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C653DB216E7FB0C00B81430;
+			remoteInfo = FTStarterApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C653DB316E7FB0C00B81430 /* FTStarterApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTStarterApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C653DB616E7FB0C00B81430 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C653DB816E7FB0C00B81430 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C653DBA16E7FB0C00B81430 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C653DBE16E7FB0C00B81430 /* FTStarterApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTStarterApplication-Info.plist"; sourceTree = "<group>"; };
+		9C653DC016E7FB0C00B81430 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C653DC216E7FB0C00B81430 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C653DC416E7FB0C00B81430 /* FTStarterApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTStarterApplication-Prefix.pch"; sourceTree = "<group>"; };
+		9C653DC516E7FB0C00B81430 /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
+		9C653DC616E7FB0C00B81430 /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
+		9C653DC816E7FB0C00B81430 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9C653DCA16E7FB0C00B81430 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9C653DCC16E7FB0C00B81430 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9C653DCF16E7FB0C00B81430 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9C653DD216E7FB0C00B81430 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9C653DD416E7FB0C00B81430 /* FTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
+		9C653DD516E7FB0C00B81430 /* FTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
+		9C653DDC16E7FB0C00B81430 /* FTStarterApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTStarterApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C653DDD16E7FB0C00B81430 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9C653DE516E7FB0C00B81430 /* FTStarterApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTStarterApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		9C653DE716E7FB0C00B81430 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C653DE916E7FB0D00B81430 /* FTStarterApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTStarterApplicationTests.h; sourceTree = "<group>"; };
+		9C653DEA16E7FB0D00B81430 /* FTStarterApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTStarterApplicationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C653DB016E7FB0C00B81430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C653DB716E7FB0C00B81430 /* UIKit.framework in Frameworks */,
+				9C653DB916E7FB0C00B81430 /* Foundation.framework in Frameworks */,
+				9C653DBB16E7FB0C00B81430 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C653DD816E7FB0C00B81430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C653DDE16E7FB0C00B81430 /* SenTestingKit.framework in Frameworks */,
+				9C653DDF16E7FB0C00B81430 /* UIKit.framework in Frameworks */,
+				9C653DE016E7FB0C00B81430 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C653DAA16E7FB0C00B81430 = {
+			isa = PBXGroup;
+			children = (
+				9C653DBC16E7FB0C00B81430 /* FTStarterApplication */,
+				9C653DE316E7FB0C00B81430 /* FTStarterApplicationTests */,
+				9C653DB516E7FB0C00B81430 /* Frameworks */,
+				9C653DB416E7FB0C00B81430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C653DB416E7FB0C00B81430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C653DB316E7FB0C00B81430 /* FTStarterApplication.app */,
+				9C653DDC16E7FB0C00B81430 /* FTStarterApplicationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C653DB516E7FB0C00B81430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C653DB616E7FB0C00B81430 /* UIKit.framework */,
+				9C653DB816E7FB0C00B81430 /* Foundation.framework */,
+				9C653DBA16E7FB0C00B81430 /* CoreGraphics.framework */,
+				9C653DDD16E7FB0C00B81430 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C653DBC16E7FB0C00B81430 /* FTStarterApplication */ = {
+			isa = PBXGroup;
+			children = (
+				9C653DC516E7FB0C00B81430 /* FTAppDelegate.h */,
+				9C653DC616E7FB0C00B81430 /* FTAppDelegate.m */,
+				9C653DCE16E7FB0C00B81430 /* MainStoryboard_iPhone.storyboard */,
+				9C653DD116E7FB0C00B81430 /* MainStoryboard_iPad.storyboard */,
+				9C653DD416E7FB0C00B81430 /* FTViewController.h */,
+				9C653DD516E7FB0C00B81430 /* FTViewController.m */,
+				9C653DBD16E7FB0C00B81430 /* Supporting Files */,
+			);
+			path = FTStarterApplication;
+			sourceTree = "<group>";
+		};
+		9C653DBD16E7FB0C00B81430 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C653DBE16E7FB0C00B81430 /* FTStarterApplication-Info.plist */,
+				9C653DBF16E7FB0C00B81430 /* InfoPlist.strings */,
+				9C653DC216E7FB0C00B81430 /* main.m */,
+				9C653DC416E7FB0C00B81430 /* FTStarterApplication-Prefix.pch */,
+				9C653DC816E7FB0C00B81430 /* Default.png */,
+				9C653DCA16E7FB0C00B81430 /* Default@2x.png */,
+				9C653DCC16E7FB0C00B81430 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C653DE316E7FB0C00B81430 /* FTStarterApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C653DE916E7FB0D00B81430 /* FTStarterApplicationTests.h */,
+				9C653DEA16E7FB0D00B81430 /* FTStarterApplicationTests.m */,
+				9C653DE416E7FB0C00B81430 /* Supporting Files */,
+			);
+			path = FTStarterApplicationTests;
+			sourceTree = "<group>";
+		};
+		9C653DE416E7FB0C00B81430 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C653DE516E7FB0C00B81430 /* FTStarterApplicationTests-Info.plist */,
+				9C653DE616E7FB0C00B81430 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C653DB216E7FB0C00B81430 /* FTStarterApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C653DEE16E7FB0D00B81430 /* Build configuration list for PBXNativeTarget "FTStarterApplication" */;
+			buildPhases = (
+				9C653DAF16E7FB0C00B81430 /* Sources */,
+				9C653DB016E7FB0C00B81430 /* Frameworks */,
+				9C653DB116E7FB0C00B81430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTStarterApplication;
+			productName = FTStarterApplication;
+			productReference = 9C653DB316E7FB0C00B81430 /* FTStarterApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C653DDB16E7FB0C00B81430 /* FTStarterApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C653DF116E7FB0D00B81430 /* Build configuration list for PBXNativeTarget "FTStarterApplicationTests" */;
+			buildPhases = (
+				9C653DD716E7FB0C00B81430 /* Sources */,
+				9C653DD816E7FB0C00B81430 /* Frameworks */,
+				9C653DD916E7FB0C00B81430 /* Resources */,
+				9C653DDA16E7FB0C00B81430 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C653DE216E7FB0C00B81430 /* PBXTargetDependency */,
+			);
+			name = FTStarterApplicationTests;
+			productName = FTStarterApplicationTests;
+			productReference = 9C653DDC16E7FB0C00B81430 /* FTStarterApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C653DAB16E7FB0C00B81430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Fototropik;
+			};
+			buildConfigurationList = 9C653DAE16E7FB0C00B81430 /* Build configuration list for PBXProject "FTStarterApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C653DAA16E7FB0C00B81430;
+			productRefGroup = 9C653DB416E7FB0C00B81430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C653DB216E7FB0C00B81430 /* FTStarterApplication */,
+				9C653DDB16E7FB0C00B81430 /* FTStarterApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C653DB116E7FB0C00B81430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C653DC116E7FB0C00B81430 /* InfoPlist.strings in Resources */,
+				9C653DC916E7FB0C00B81430 /* Default.png in Resources */,
+				9C653DCB16E7FB0C00B81430 /* Default@2x.png in Resources */,
+				9C653DCD16E7FB0C00B81430 /* Default-568h@2x.png in Resources */,
+				9C653DD016E7FB0C00B81430 /* MainStoryboard_iPhone.storyboard in Resources */,
+				9C653DD316E7FB0C00B81430 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C653DD916E7FB0C00B81430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C653DE816E7FB0C00B81430 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C653DDA16E7FB0C00B81430 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C653DAF16E7FB0C00B81430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C653DC316E7FB0C00B81430 /* main.m in Sources */,
+				9C653DC716E7FB0C00B81430 /* FTAppDelegate.m in Sources */,
+				9C653DD616E7FB0C00B81430 /* FTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C653DD716E7FB0C00B81430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C653DEB16E7FB0D00B81430 /* FTStarterApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C653DE216E7FB0C00B81430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C653DB216E7FB0C00B81430 /* FTStarterApplication */;
+			targetProxy = 9C653DE116E7FB0C00B81430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C653DBF16E7FB0C00B81430 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C653DC016E7FB0C00B81430 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9C653DCE16E7FB0C00B81430 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C653DCF16E7FB0C00B81430 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9C653DD116E7FB0C00B81430 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C653DD216E7FB0C00B81430 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9C653DE616E7FB0C00B81430 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C653DE716E7FB0C00B81430 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C653DEC16E7FB0D00B81430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C653DED16E7FB0D00B81430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C653DEF16E7FB0D00B81430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTStarterApplication/FTStarterApplication-Prefix.pch";
+				INFOPLIST_FILE = "FTStarterApplication/FTStarterApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C653DF016E7FB0D00B81430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTStarterApplication/FTStarterApplication-Prefix.pch";
+				INFOPLIST_FILE = "FTStarterApplication/FTStarterApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9C653DF216E7FB0D00B81430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTStarterApplication.app/FTStarterApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTStarterApplication/FTStarterApplication-Prefix.pch";
+				INFOPLIST_FILE = "FTStarterApplicationTests/FTStarterApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9C653DF316E7FB0D00B81430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTStarterApplication.app/FTStarterApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTStarterApplication/FTStarterApplication-Prefix.pch";
+				INFOPLIST_FILE = "FTStarterApplicationTests/FTStarterApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C653DAE16E7FB0C00B81430 /* Build configuration list for PBXProject "FTStarterApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C653DEC16E7FB0D00B81430 /* Debug */,
+				9C653DED16E7FB0D00B81430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C653DEE16E7FB0D00B81430 /* Build configuration list for PBXNativeTarget "FTStarterApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C653DEF16E7FB0D00B81430 /* Debug */,
+				9C653DF016E7FB0D00B81430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C653DF116E7FB0D00B81430 /* Build configuration list for PBXNativeTarget "FTStarterApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C653DF216E7FB0D00B81430 /* Debug */,
+				9C653DF316E7FB0D00B81430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C653DAB16E7FB0C00B81430 /* Project object */;
+}

@@ -61,6 +61,10 @@
 		9C6CDB0516E82C3B00498A67 /* FTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDB0316E82C3B00498A67 /* FTSessionManager.m */; };
 		9C6CDB0816E82E3900498A67 /* FTUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDB0716E82E3900498A67 /* FTUI.m */; };
 		9C6CDB0916E82E3900498A67 /* FTUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDB0716E82E3900498A67 /* FTUI.m */; };
+		9CC4F87B16E8459F007BEDCA /* FTCustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4F87A16E8459F007BEDCA /* FTCustomUIView.m */; };
+		9CC4F87D16E845B4007BEDCA /* FTCustomUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4F87C16E845B4007BEDCA /* FTCustomUIView.xib */; };
+		9CC4F87F16E846CF007BEDCA /* FTUITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4F87E16E846CF007BEDCA /* FTUITableViewCell.xib */; };
+		9CCC912F16E847B0002964FD /* FTUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC912E16E847B0002964FD /* FTUITableViewCell.m */; };
 		FCDB6E67914B485780E77E65 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6BC1C185D42238E7F9FCD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -144,6 +148,12 @@
 		9C6CDB0316E82C3B00498A67 /* FTSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSessionManager.m; sourceTree = "<group>"; };
 		9C6CDB0616E82E3900498A67 /* FTUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUI.h; sourceTree = "<group>"; };
 		9C6CDB0716E82E3900498A67 /* FTUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTUI.m; sourceTree = "<group>"; };
+		9CC4F87916E8459F007BEDCA /* FTCustomUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCustomUIView.h; sourceTree = "<group>"; };
+		9CC4F87A16E8459F007BEDCA /* FTCustomUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCustomUIView.m; sourceTree = "<group>"; };
+		9CC4F87C16E845B4007BEDCA /* FTCustomUIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTCustomUIView.xib; sourceTree = "<group>"; };
+		9CC4F87E16E846CF007BEDCA /* FTUITableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTUITableViewCell.xib; sourceTree = "<group>"; };
+		9CCC912D16E847B0002964FD /* FTUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUITableViewCell.h; sourceTree = "<group>"; };
+		9CCC912E16E847B0002964FD /* FTUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTUITableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +275,10 @@
 		9C653E0716E800A200B81430 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9CCC912D16E847B0002964FD /* FTUITableViewCell.h */,
+				9CCC912E16E847B0002964FD /* FTUITableViewCell.m */,
+				9CC4F87916E8459F007BEDCA /* FTCustomUIView.h */,
+				9CC4F87A16E8459F007BEDCA /* FTCustomUIView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -298,6 +312,8 @@
 		9C653E0916E800C600B81430 /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
+				9CC4F87C16E845B4007BEDCA /* FTCustomUIView.xib */,
+				9CC4F87E16E846CF007BEDCA /* FTUITableViewCell.xib */,
 			);
 			name = Nibs;
 			sourceTree = "<group>";
@@ -478,6 +494,8 @@
 				9C653DD016E7FB0C00B81430 /* MainStoryboard_iPhone.storyboard in Resources */,
 				9C653DD316E7FB0C00B81430 /* MainStoryboard_iPad.storyboard in Resources */,
 				9C653E5C16E8164E00B81430 /* Default-568h@2x.png in Resources */,
+				9CC4F87D16E845B4007BEDCA /* FTCustomUIView.xib in Resources */,
+				9CC4F87F16E846CF007BEDCA /* FTUITableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +557,8 @@
 				9C6CDB0016E827A300498A67 /* Mixpanel.m in Sources */,
 				9C6CDB0416E82C3B00498A67 /* FTSessionManager.m in Sources */,
 				9C6CDB0816E82E3900498A67 /* FTUI.m in Sources */,
+				9CC4F87B16E8459F007BEDCA /* FTCustomUIView.m in Sources */,
+				9CCC912F16E847B0002964FD /* FTUITableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

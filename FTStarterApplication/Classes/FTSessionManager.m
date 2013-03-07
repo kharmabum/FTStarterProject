@@ -15,7 +15,7 @@
 //#define ONE_MILE_IN_METERS              1609.34
 //#define SIGNIFICANT_LOCATION_CHANGE     ONE_MILE_IN_METERS/4
 //#define HALF_HOUR_IN_SECONDS            60*30
-//#define UPDATE_FREQUENCY                5*60
+#define UPDATE_FREQUENCY                5*60
 
 @interface FTSessionManager () <CLLocationManagerDelegate>
 //@property (strong, nonatomic)   HPUser *activeUser;

@@ -1,6 +1,6 @@
 # FTStarterProject
 
-## TODO
+### Todo
 + CoreData model
 + Social integration
 + Better session management

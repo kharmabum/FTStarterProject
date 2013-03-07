@@ -1,0 +1,35 @@
+//
+// Prefix header for all source files of the 'FTStarterApplication' target in the 'FTStarterApplication' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <Crashlytics/Crashlytics.h>
+    #import <CoreLocation/CoreLocation.h>
+    #import <MapKit/MapKit.h>
+
+
+    #import "FTDefines.h"
+    #import "AFNetworking.h"
+    #import "FTAnalytics.h"
+    #import "FTSessionManager.h"
+
+#endif
+
+
+//iOS6 only
+#ifndef NS_ENUM
+#define NS_ENUM(_type, _name) _type _name; enum
+#define NS_OPTIONS(_type, _name) _type _name; enum
+#endif
+

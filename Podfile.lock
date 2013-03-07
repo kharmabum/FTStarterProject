@@ -1,0 +1,35 @@
+
+SPEC CHECKSUMS: 
+  ViewDeck: 995e4b8ee14382163461fa0a4ad8b607e4882cc6
+  TTTAttributedLabel: 8835192a5fa1ce88b1e0752b2640b7620475a500
+  MBProgressHUD: b23ee11c42253d6d804e8e0bfabdc334e8b2571f
+  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  Facebook-iOS-SDK: a9893c9ad7cf2ce35cb6297e2859eaee654bd6b0
+  SBJson: 4971016670e7b3fa04a36d4e72ab0fb1ad3a9f69
+  SSToolkit: 9751b7ec0d068dc1dc46c8121dfeff808f9e3d35
+  SSDataKit: df74fc5c0296db9536f2e76d66b9c66b6db6381f
+  CustomBadge: 07ca87331a9644bc355963ff47c9d1b1f2516acf
+
+DEPENDENCIES: 
+- AFNetworking
+- CustomBadge
+- Facebook-iOS-SDK
+- MBProgressHUD
+- SBJson
+- SSDataKit
+- SSToolkit
+- TTTAttributedLabel
+- ViewDeck (~> 2.2.0)
+
+COCOAPODS: 0.16.4
+
+PODS: 
+- AFNetworking (1.1.0)
+- CustomBadge (2.0)
+- Facebook-iOS-SDK (3.2.0)
+- MBProgressHUD (0.5)
+- SBJson (3.2)
+- SSDataKit (0.1.0)
+- SSToolkit (1.0.2)
+- TTTAttributedLabel (1.6.1)
+- ViewDeck (2.2.4)

@@ -12,71 +12,26 @@
 		9C653DBB16E7FB0C00B81430 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DBA16E7FB0C00B81430 /* CoreGraphics.framework */; };
 		9C653DD016E7FB0C00B81430 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DCE16E7FB0C00B81430 /* MainStoryboard_iPhone.storyboard */; };
 		9C653DD316E7FB0C00B81430 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DD116E7FB0C00B81430 /* MainStoryboard_iPad.storyboard */; };
-		9C653DDE16E7FB0C00B81430 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DDD16E7FB0C00B81430 /* SenTestingKit.framework */; };
-		9C653DDF16E7FB0C00B81430 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DB616E7FB0C00B81430 /* UIKit.framework */; };
-		9C653DE016E7FB0C00B81430 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653DB816E7FB0C00B81430 /* Foundation.framework */; };
-		9C653DE816E7FB0C00B81430 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C653DE616E7FB0C00B81430 /* InfoPlist.strings */; };
-		9C653DEB16E7FB0D00B81430 /* FTStarterApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653DEA16E7FB0D00B81430 /* FTStarterApplicationTests.m */; };
 		9C653E0116E8005B00B81430 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653DFB16E8005B00B81430 /* FTAppDelegate.m */; };
-		9C653E0516E8008B00B81430 /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E0416E8008B00B81430 /* FTViewController.m */; };
 		9C653E1016E80A2E00B81430 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653E0F16E80A2E00B81430 /* CoreData.framework */; };
 		9C653E1216E80A4200B81430 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653E1116E80A4200B81430 /* CoreLocation.framework */; };
 		9C653E1416E80A5600B81430 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653E1316E80A5600B81430 /* MapKit.framework */; };
-		9C653E2816E80AD600B81430 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653E1616E80AD600B81430 /* Crashlytics.framework */; };
-		9C653E2916E80AD600B81430 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653E1916E80AD600B81430 /* libFlurry.a */; };
-		9C653E4216E80FAD00B81430 /* NSArray+Accessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E3116E80FAD00B81430 /* NSArray+Accessing.m */; };
-		9C653E4316E80FAD00B81430 /* NSAttributedString+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E3316E80FAD00B81430 /* NSAttributedString+Attributes.m */; };
-		9C653E4416E80FAD00B81430 /* NSObject+PerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E3516E80FAD00B81430 /* NSObject+PerformBlock.m */; };
-		9C653E4516E80FAD00B81430 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E3716E80FAD00B81430 /* NSObject+Swizzle.m */; };
-		9C653E4616E80FAD00B81430 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E3916E80FAD00B81430 /* NSString+UUID.m */; };
-		9C653E4716E80FAD00B81430 /* NSURLRequest+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E3B16E80FAD00B81430 /* NSURLRequest+Debug.m */; };
-		9C653E4816E80FAD00B81430 /* UIImage+ImageFromDiskNamed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E3D16E80FAD00B81430 /* UIImage+ImageFromDiskNamed.m */; };
-		9C653E4916E80FAD00B81430 /* UIView+FTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E3F16E80FAD00B81430 /* UIView+FTAdditions.m */; };
-		9C653E4A16E80FAD00B81430 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E4116E80FAD00B81430 /* UIView+Layout.m */; };
 		9C653E5C16E8164E00B81430 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C653E5B16E8164E00B81430 /* Default-568h@2x.png */; };
 		9C653E6316E816C600B81430 /* FTDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E5F16E816C500B81430 /* FTDefines.m */; };
-		9C653E6416E816C600B81430 /* FTDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E5F16E816C500B81430 /* FTDefines.m */; };
-		9C653E6616E816C600B81430 /* FTStarterApplication-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C653E6016E816C600B81430 /* FTStarterApplication-Info.plist */; };
 		9C653E6716E816C600B81430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E6216E816C600B81430 /* main.m */; };
-		9C653E6816E816C600B81430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E6216E816C600B81430 /* main.m */; };
 		9C653E6B16E81E4800B81430 /* FTAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E6A16E81E4800B81430 /* FTAnalytics.m */; };
-		9C653E6C16E81E4800B81430 /* FTAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E6A16E81E4800B81430 /* FTAnalytics.m */; };
 		9C653E6F16E81F2500B81430 /* FTApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E6E16E81F2500B81430 /* FTApiClient.m */; };
-		9C653E7016E81F2500B81430 /* FTApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C653E6E16E81F2500B81430 /* FTApiClient.m */; };
 		9C653E7516E823CD00B81430 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653E7116E823AD00B81430 /* SystemConfiguration.framework */; };
 		9C653E7616E823D400B81430 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653E7316E823B300B81430 /* MobileCoreServices.framework */; };
 		9C653E7716E8246C00B81430 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653E1616E80AD600B81430 /* Crashlytics.framework */; };
-		9C6CDAE916E8259000498A67 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C653E1916E80AD600B81430 /* libFlurry.a */; };
-		9C6CDAF816E827A300498A67 /* MPCJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAEE16E827A300498A67 /* MPCJSONDataSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9C6CDAF916E827A300498A67 /* MPCJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAEE16E827A300498A67 /* MPCJSONDataSerializer.m */; };
-		9C6CDAFA16E827A300498A67 /* MPCJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAF016E827A300498A67 /* MPCJSONSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9C6CDAFB16E827A300498A67 /* MPCJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAF016E827A300498A67 /* MPCJSONSerializer.m */; };
-		9C6CDAFC16E827A300498A67 /* MPCSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAF216E827A300498A67 /* MPCSerializedJSONData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9C6CDAFD16E827A300498A67 /* MPCSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAF216E827A300498A67 /* MPCSerializedJSONData.m */; };
-		9C6CDAFE16E827A300498A67 /* NSData+MPBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAF516E827A300498A67 /* NSData+MPBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9C6CDAFF16E827A300498A67 /* NSData+MPBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAF516E827A300498A67 /* NSData+MPBase64.m */; };
-		9C6CDB0016E827A300498A67 /* Mixpanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAF716E827A300498A67 /* Mixpanel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9C6CDB0116E827A300498A67 /* Mixpanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDAF716E827A300498A67 /* Mixpanel.m */; };
 		9C6CDB0416E82C3B00498A67 /* FTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDB0316E82C3B00498A67 /* FTSessionManager.m */; };
-		9C6CDB0516E82C3B00498A67 /* FTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDB0316E82C3B00498A67 /* FTSessionManager.m */; };
 		9C6CDB0816E82E3900498A67 /* FTUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDB0716E82E3900498A67 /* FTUI.m */; };
-		9C6CDB0916E82E3900498A67 /* FTUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CDB0716E82E3900498A67 /* FTUI.m */; };
 		9CC4F87B16E8459F007BEDCA /* FTCustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4F87A16E8459F007BEDCA /* FTCustomUIView.m */; };
 		9CC4F87D16E845B4007BEDCA /* FTCustomUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4F87C16E845B4007BEDCA /* FTCustomUIView.xib */; };
 		9CC4F87F16E846CF007BEDCA /* FTUITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4F87E16E846CF007BEDCA /* FTUITableViewCell.xib */; };
 		9CCC912F16E847B0002964FD /* FTUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCC912E16E847B0002964FD /* FTUITableViewCell.m */; };
 		FCDB6E67914B485780E77E65 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6BC1C185D42238E7F9FCD /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9C653DE116E7FB0C00B81430 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9C653DAB16E7FB0C00B81430 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C653DB216E7FB0C00B81430;
-			remoteInfo = FTStarterApplication;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		18D6BC1C185D42238E7F9FCD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +42,6 @@
 		9C653DBA16E7FB0C00B81430 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9C653DCF16E7FB0C00B81430 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		9C653DD216E7FB0C00B81430 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		9C653DDC16E7FB0C00B81430 /* FTStarterApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTStarterApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C653DDD16E7FB0C00B81430 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9C653DE516E7FB0C00B81430 /* FTStarterApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTStarterApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		9C653DE716E7FB0C00B81430 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -101,8 +55,6 @@
 		9C653E1116E80A4200B81430 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9C653E1316E80A5600B81430 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9C653E1616E80AD600B81430 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		9C653E1816E80AD600B81430 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		9C653E1916E80AD600B81430 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		9C653E2F16E80FAD00B81430 /* FTNullOrEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNullOrEmpty.h; sourceTree = "<group>"; };
 		9C653E3016E80FAD00B81430 /* NSArray+Accessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Accessing.h"; sourceTree = "<group>"; };
 		9C653E3116E80FAD00B81430 /* NSArray+Accessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Accessing.m"; sourceTree = "<group>"; };
@@ -134,16 +86,6 @@
 		9C653E6E16E81F2500B81430 /* FTApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTApiClient.m; sourceTree = "<group>"; };
 		9C653E7116E823AD00B81430 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9C653E7316E823B300B81430 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		9C6CDAED16E827A300498A67 /* MPCJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCJSONDataSerializer.h; sourceTree = "<group>"; };
-		9C6CDAEE16E827A300498A67 /* MPCJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCJSONDataSerializer.m; sourceTree = "<group>"; };
-		9C6CDAEF16E827A300498A67 /* MPCJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCJSONSerializer.h; sourceTree = "<group>"; };
-		9C6CDAF016E827A300498A67 /* MPCJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCJSONSerializer.m; sourceTree = "<group>"; };
-		9C6CDAF116E827A300498A67 /* MPCSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCSerializedJSONData.h; sourceTree = "<group>"; };
-		9C6CDAF216E827A300498A67 /* MPCSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCSerializedJSONData.m; sourceTree = "<group>"; };
-		9C6CDAF416E827A300498A67 /* NSData+MPBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MPBase64.h"; sourceTree = "<group>"; };
-		9C6CDAF516E827A300498A67 /* NSData+MPBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MPBase64.m"; sourceTree = "<group>"; };
-		9C6CDAF616E827A300498A67 /* Mixpanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mixpanel.h; sourceTree = "<group>"; };
-		9C6CDAF716E827A300498A67 /* Mixpanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mixpanel.m; sourceTree = "<group>"; };
 		9C6CDB0216E82C3A00498A67 /* FTSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSessionManager.h; sourceTree = "<group>"; };
 		9C6CDB0316E82C3B00498A67 /* FTSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSessionManager.m; sourceTree = "<group>"; };
 		9C6CDB0616E82E3900498A67 /* FTUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUI.h; sourceTree = "<group>"; };
@@ -170,20 +112,7 @@
 				9C653E1016E80A2E00B81430 /* CoreData.framework in Frameworks */,
 				9C653DB716E7FB0C00B81430 /* UIKit.framework in Frameworks */,
 				9C653DB916E7FB0C00B81430 /* Foundation.framework in Frameworks */,
-				9C6CDAE916E8259000498A67 /* libFlurry.a in Frameworks */,
 				FCDB6E67914B485780E77E65 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C653DD816E7FB0C00B81430 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C653DDE16E7FB0C00B81430 /* SenTestingKit.framework in Frameworks */,
-				9C653DDF16E7FB0C00B81430 /* UIKit.framework in Frameworks */,
-				9C653DE016E7FB0C00B81430 /* Foundation.framework in Frameworks */,
-				9C653E2816E80AD600B81430 /* Crashlytics.framework in Frameworks */,
-				9C653E2916E80AD600B81430 /* libFlurry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				9C653DB316E7FB0C00B81430 /* FTStarterApplication.app */,
-				9C653DDC16E7FB0C00B81430 /* FTStarterApplicationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,20 +276,9 @@
 			isa = PBXGroup;
 			children = (
 				9C653E1616E80AD600B81430 /* Crashlytics.framework */,
-				9C6CDAEA16E827A300498A67 /* Mixpanel */,
-				9C653E1716E80AD600B81430 /* Flurry */,
 			);
 			name = Vendor;
 			path = FTStarterApplication/Vendor;
-			sourceTree = "<group>";
-		};
-		9C653E1716E80AD600B81430 /* Flurry */ = {
-			isa = PBXGroup;
-			children = (
-				9C653E1816E80AD600B81430 /* Flurry.h */,
-				9C653E1916E80AD600B81430 /* libFlurry.a */,
-			);
-			path = Flurry;
 			sourceTree = "<group>";
 		};
 		9C653E5D16E816C500B81430 /* Supporting Files */ = {
@@ -375,47 +292,6 @@
 			);
 			name = "Supporting Files";
 			path = "FTStarterApplication/Supporting Files";
-			sourceTree = "<group>";
-		};
-		9C6CDAEA16E827A300498A67 /* Mixpanel */ = {
-			isa = PBXGroup;
-			children = (
-				9C6CDAEB16E827A300498A67 /* Library */,
-				9C6CDAF616E827A300498A67 /* Mixpanel.h */,
-				9C6CDAF716E827A300498A67 /* Mixpanel.m */,
-			);
-			path = Mixpanel;
-			sourceTree = "<group>";
-		};
-		9C6CDAEB16E827A300498A67 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				9C6CDAEC16E827A300498A67 /* JSON */,
-				9C6CDAF316E827A300498A67 /* NSData_Base64 */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		9C6CDAEC16E827A300498A67 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				9C6CDAED16E827A300498A67 /* MPCJSONDataSerializer.h */,
-				9C6CDAEE16E827A300498A67 /* MPCJSONDataSerializer.m */,
-				9C6CDAEF16E827A300498A67 /* MPCJSONSerializer.h */,
-				9C6CDAF016E827A300498A67 /* MPCJSONSerializer.m */,
-				9C6CDAF116E827A300498A67 /* MPCSerializedJSONData.h */,
-				9C6CDAF216E827A300498A67 /* MPCSerializedJSONData.m */,
-			);
-			path = JSON;
-			sourceTree = "<group>";
-		};
-		9C6CDAF316E827A300498A67 /* NSData_Base64 */ = {
-			isa = PBXGroup;
-			children = (
-				9C6CDAF416E827A300498A67 /* NSData+MPBase64.h */,
-				9C6CDAF516E827A300498A67 /* NSData+MPBase64.m */,
-			);
-			path = NSData_Base64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,25 +314,6 @@
 			productName = FTStarterApplication;
 			productReference = 9C653DB316E7FB0C00B81430 /* FTStarterApplication.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9C653DDB16E7FB0C00B81430 /* FTStarterApplicationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C653DF116E7FB0D00B81430 /* Build configuration list for PBXNativeTarget "FTStarterApplicationTests" */;
-			buildPhases = (
-				9C653DD716E7FB0C00B81430 /* Sources */,
-				9C653DD816E7FB0C00B81430 /* Frameworks */,
-				9C653DD916E7FB0C00B81430 /* Resources */,
-				9C653DDA16E7FB0C00B81430 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9C653DE216E7FB0C00B81430 /* PBXTargetDependency */,
-			);
-			name = FTStarterApplicationTests;
-			productName = FTStarterApplicationTests;
-			productReference = 9C653DDC16E7FB0C00B81430 /* FTStarterApplicationTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -481,7 +338,6 @@
 			projectRoot = "";
 			targets = (
 				9C653DB216E7FB0C00B81430 /* FTStarterApplication */,
-				9C653DDB16E7FB0C00B81430 /* FTStarterApplicationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -499,31 +355,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C653DD916E7FB0C00B81430 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C653DE816E7FB0C00B81430 /* InfoPlist.strings in Resources */,
-				9C653E6616E816C600B81430 /* FTStarterApplication-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9C653DDA16E7FB0C00B81430 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
 		CF57598A0E42406A9C6DFF5F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -550,11 +384,6 @@
 				9C653E6716E816C600B81430 /* main.m in Sources */,
 				9C653E6B16E81E4800B81430 /* FTAnalytics.m in Sources */,
 				9C653E6F16E81F2500B81430 /* FTApiClient.m in Sources */,
-				9C6CDAF816E827A300498A67 /* MPCJSONDataSerializer.m in Sources */,
-				9C6CDAFA16E827A300498A67 /* MPCJSONSerializer.m in Sources */,
-				9C6CDAFC16E827A300498A67 /* MPCSerializedJSONData.m in Sources */,
-				9C6CDAFE16E827A300498A67 /* NSData+MPBase64.m in Sources */,
-				9C6CDB0016E827A300498A67 /* Mixpanel.m in Sources */,
 				9C6CDB0416E82C3B00498A67 /* FTSessionManager.m in Sources */,
 				9C6CDB0816E82E3900498A67 /* FTUI.m in Sources */,
 				9CC4F87B16E8459F007BEDCA /* FTCustomUIView.m in Sources */,
@@ -562,44 +391,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C653DD716E7FB0C00B81430 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C653DEB16E7FB0D00B81430 /* FTStarterApplicationTests.m in Sources */,
-				9C653E0516E8008B00B81430 /* FTViewController.m in Sources */,
-				9C653E4216E80FAD00B81430 /* NSArray+Accessing.m in Sources */,
-				9C653E4316E80FAD00B81430 /* NSAttributedString+Attributes.m in Sources */,
-				9C653E4416E80FAD00B81430 /* NSObject+PerformBlock.m in Sources */,
-				9C653E4516E80FAD00B81430 /* NSObject+Swizzle.m in Sources */,
-				9C653E4616E80FAD00B81430 /* NSString+UUID.m in Sources */,
-				9C653E4716E80FAD00B81430 /* NSURLRequest+Debug.m in Sources */,
-				9C653E4816E80FAD00B81430 /* UIImage+ImageFromDiskNamed.m in Sources */,
-				9C653E4916E80FAD00B81430 /* UIView+FTAdditions.m in Sources */,
-				9C653E4A16E80FAD00B81430 /* UIView+Layout.m in Sources */,
-				9C653E6416E816C600B81430 /* FTDefines.m in Sources */,
-				9C653E6816E816C600B81430 /* main.m in Sources */,
-				9C653E6C16E81E4800B81430 /* FTAnalytics.m in Sources */,
-				9C653E7016E81F2500B81430 /* FTApiClient.m in Sources */,
-				9C6CDAF916E827A300498A67 /* MPCJSONDataSerializer.m in Sources */,
-				9C6CDAFB16E827A300498A67 /* MPCJSONSerializer.m in Sources */,
-				9C6CDAFD16E827A300498A67 /* MPCSerializedJSONData.m in Sources */,
-				9C6CDAFF16E827A300498A67 /* NSData+MPBase64.m in Sources */,
-				9C6CDB0116E827A300498A67 /* Mixpanel.m in Sources */,
-				9C6CDB0516E82C3B00498A67 /* FTSessionManager.m in Sources */,
-				9C6CDB0916E82E3900498A67 /* FTUI.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9C653DE216E7FB0C00B81430 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9C653DB216E7FB0C00B81430 /* FTStarterApplication */;
-			targetProxy = 9C653DE116E7FB0C00B81430 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9C653DCE16E7FB0C00B81430 /* MainStoryboard_iPhone.storyboard */ = {
@@ -777,50 +569,6 @@
 			};
 			name = Release;
 		};
-		9C653DF216E7FB0D00B81430 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTStarterApplication.app/FTStarterApplication";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/FTStarterApplication/Vendor\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FTStarterApplication/FTStarterApplication-Prefix.pch";
-				INFOPLIST_FILE = "FTStarterApplicationTests/FTStarterApplicationTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/FTStarterApplication/Vendor/Flurry\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		9C653DF316E7FB0D00B81430 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTStarterApplication.app/FTStarterApplication";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/FTStarterApplication/Vendor\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FTStarterApplication/FTStarterApplication-Prefix.pch";
-				INFOPLIST_FILE = "FTStarterApplicationTests/FTStarterApplicationTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/FTStarterApplication/Vendor/Flurry\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -838,15 +586,6 @@
 			buildConfigurations = (
 				9C653DEF16E7FB0D00B81430 /* Debug */,
 				9C653DF016E7FB0D00B81430 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C653DF116E7FB0D00B81430 /* Build configuration list for PBXNativeTarget "FTStarterApplicationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C653DF216E7FB0D00B81430 /* Debug */,
-				9C653DF316E7FB0D00B81430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

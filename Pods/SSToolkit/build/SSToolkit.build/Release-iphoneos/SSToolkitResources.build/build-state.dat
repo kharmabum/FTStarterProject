@@ -3,46 +3,46 @@ v5
 r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/Info.plist Resources/SSToolkitResources-Info.plist
-cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings
-cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings
+cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings
+cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings
-cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings
+cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings
-cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings
+cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings
 cCopyStringsFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png
-cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png
+cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
+cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png
-cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png
+cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSVignetteiPad.png Resources/Images/SSVignetteiPad.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSVignetteiPhone.png Resources/Images/SSVignetteiPhone.png
-cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png
-cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSVignetteiPhone@2x.png Resources/Images/SSVignetteiPhone@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png
+cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png
+cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png
-cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png
-cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png
+cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png
 cCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png
 cTouch /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle
 
@@ -430,7 +430,7 @@ s1394
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies596a318e4de8b641^698a3c8e4de8b641^---0#1#0#--18"Check dependencies36"64D8DCB3-2B86-4EAB-88D7-EFF9E14992D3-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese5d3cfd750e8b641^f661d9d750e8b641^---0#1#0#--18"Check dependencies36"D33B995A-9BB7-4F21-A940-559D48F6F27A-
 
 CCopyPNGFile /Users/jfoust/Dropbox/Development/Fototropik/FTStarterApplication/Pods/SSToolkit/../Resources/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
 s384311818.075191

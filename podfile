@@ -1,13 +1,18 @@
 platform :ios, '6.0'
 
-pod 'SSToolkit'
 pod 'AFNetworking'
 pod 'SBJson'
-pod 'TTTAttributedLabel'
-pod 'CustomBadge'
-pod 'ViewDeck', '~> 2.2.0'
-pod 'MBProgressHUD'
-pod 'Facebook-iOS-SDK'
 pod 'SSDataKit'
 pod 'GHUnitIOS'
 pod 'KIF'
+pod 'Mixpanel', '~> 1.1'
+pod 'FlurrySDK', '~> 4.1'
+
+pod 'Facebook-iOS-SDK'
+
+pod 'SSToolkit'
+pod 'ViewDeck', '~> 2.2'
+pod 'TTTAttributedLabel'
+pod 'MBProgressHUD'
+
+

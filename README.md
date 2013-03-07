@@ -2,6 +2,5 @@
 
 ### Todo
 + CoreData model
-+ Social integration
-+ Better session management
++ Complete social integration
 + Testing frameworks: GHUnit, KIF

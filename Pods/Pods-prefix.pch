@@ -12,6 +12,8 @@
   #import <CoreServices/CoreServices.h>
 #endif
 #endif /* __OBJC__*/
+
+#import <CoreGraphics/CoreGraphics.h>
 #ifdef __OBJC__
 #import "SSToolkitDefines.h"
 #endif

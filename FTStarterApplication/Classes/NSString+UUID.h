@@ -1,12 +1,7 @@
-#pragma mark Class Interface
+#import <Foundation/Foundation.h>
 
 @interface NSString (UUID)
 
-
-#pragma mark -
-#pragma mark Static Methods
-
 + (NSString *)generateUUID;
-
 
 @end

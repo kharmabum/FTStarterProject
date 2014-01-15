@@ -1,11 +1,3 @@
-//
-//  UIImage+ImageFromDiskNamed.m
-//  PulseNews
-//
-//  Created by Ankit Gupta on 6/16/11.
-//  Copyright 2011 Pulse News. All rights reserved.
-//
-
 #import "UIImage+ImageFromDiskNamed.h"
 
 @implementation UIImage (ImageFromDiskNamed)

@@ -1,9 +1,6 @@
-ALWAYS_SEARCH_USER_PATHS = YES
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) RUN_KIF_TESTS=1
-HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/FlurrySDK" "${PODS_ROOT}/Headers/HexColors" "${PODS_ROOT}/Headers/MBProgressHUD" "${PODS_ROOT}/Headers/Mantle" "${PODS_ROOT}/Headers/SSDataKit" "${PODS_ROOT}/Headers/TSMessages"
 LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/FlurrySDK/Flurry"
-OTHER_LDFLAGS = -ObjC -lFlurry -lsqlite3.0 -framework CoreData -framework CoreGraphics -framework CoreLocation -framework CoreTelephony -framework CoreText -framework MobileCoreServices -framework QuartzCore -framework SystemConfiguration -weak_framework Accounts -weak_framework AdSupport -weak_framework Social
-PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/AFNetworking" "${PODS_ROOT}/BuildHeaders/Facebook-iOS-SDK" "${PODS_ROOT}/BuildHeaders/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/BuildHeaders/FlurrySDK" "${PODS_ROOT}/BuildHeaders/GHUnitIOS" "${PODS_ROOT}/BuildHeaders/KIF" "${PODS_ROOT}/BuildHeaders/MBProgressHUD" "${PODS_ROOT}/BuildHeaders/Mixpanel" "${PODS_ROOT}/BuildHeaders/SBJson" "${PODS_ROOT}/BuildHeaders/SSDataKit" "${PODS_ROOT}/BuildHeaders/SSToolkit" "${PODS_ROOT}/BuildHeaders/TTTAttributedLabel" "${PODS_ROOT}/BuildHeaders/ViewDeck"
-PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
-PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/FlurrySDK" "${PODS_ROOT}/Headers/GHUnitIOS" "${PODS_ROOT}/Headers/KIF" "${PODS_ROOT}/Headers/MBProgressHUD" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/SBJson" "${PODS_ROOT}/Headers/SSDataKit" "${PODS_ROOT}/Headers/SSToolkit" "${PODS_ROOT}/Headers/TTTAttributedLabel" "${PODS_ROOT}/Headers/ViewDeck"
+OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/AFNetworking" "-isystem${PODS_ROOT}/Headers/FlurrySDK" "-isystem${PODS_ROOT}/Headers/HexColors" "-isystem${PODS_ROOT}/Headers/MBProgressHUD" "-isystem${PODS_ROOT}/Headers/Mantle" "-isystem${PODS_ROOT}/Headers/SSDataKit" "-isystem${PODS_ROOT}/Headers/TSMessages"
+OTHER_LDFLAGS = -ObjC -lFlurry_4.3.0 -framework CoreData -framework CoreGraphics -framework Foundation -framework MobileCoreServices -framework Security -framework SystemConfiguration -framework UIKit
 PODS_ROOT = ${SRCROOT}/Pods

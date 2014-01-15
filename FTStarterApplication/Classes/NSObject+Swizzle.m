@@ -1,11 +1,3 @@
-//
-//  NSObject+Swizzle.m
-//  OneHundredPlus
-//
-//  Created by Juan-Carlos Foust on 27/02/2013.
-//  Copyright (c) 2013 100Plus. All rights reserved.
-//
-
 #import "NSObject+Swizzle.h"
 #import <objc/runtime.h>
 

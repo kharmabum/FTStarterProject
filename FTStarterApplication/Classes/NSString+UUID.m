@@ -1,13 +1,6 @@
 #import "NSString+UUID.h"
 
-
-#pragma mark Class Definition
-
 @implementation NSString (UUID)
-
-
-#pragma mark -
-#pragma mark Public Methods
 
 + (NSString *)generateUUID
 {
@@ -17,5 +10,4 @@
     return uuidString;
 }
 
-
-@end // @implementation NSString (UUID)
+@end

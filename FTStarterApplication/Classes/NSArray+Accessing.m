@@ -1,7 +1,5 @@
 #import "NSArray+Accessing.h"
 
-#pragma mark Class Definition
-
 @implementation NSArray (Accessing)
 
 - (id)firstObject
@@ -21,14 +19,10 @@
 - (id)tryObjectAtIndex: (NSUInteger)index
 {
 	id object = nil;
-	
-	if (index < [self count])
-	{
+	if (index < [self count]) {
 		object = [self objectAtIndex: index];
 	}
-	
 	return object;
 }
 
-
-@end // @implementation NSArray (Accessing)
+@end

@@ -29,7 +29,6 @@
 /* Location and Recommendation Site Management */
 + (CLLocation *)location;
 + (void)setDestination:(CLLocation *)destination;
-
 + (void)tryLocationUpdate;
 + (void)updateLocation;
 + (void)mapDidUpdateUserLocation:(CLLocation *)userLocation;

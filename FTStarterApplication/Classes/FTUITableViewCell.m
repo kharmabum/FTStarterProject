@@ -33,13 +33,22 @@ static UIImage *_placeholderImage = nil;
 
 - (void)setup
 {
-    
+//    CGSize size = self.contentView.frame.size;
+
 }
 
 - (void)awakeFromNib
 {
     [super awakeFromNib];
     [self setup];
+}
+
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        [self setup];
+    }
+    return self;
 }
 
 - (NSString *)reuseIdentifier

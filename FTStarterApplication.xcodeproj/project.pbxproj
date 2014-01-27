@@ -44,6 +44,7 @@
 		C94CE6001887389C00C5AE7E /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = C94CE5F31887389C00C5AE7E /* iTunesArtwork.png */; };
 		C94CE6011887389C00C5AE7E /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C94CE5F41887389C00C5AE7E /* iTunesArtwork@2x.png */; };
 		C96A60B2188603F000BCC067 /* MBProgressHud+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96A60B1188603F000BCC067 /* MBProgressHud+UIViewController.m */; };
+		C9BB3E8D188E477D00C20D78 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BB3E8C188E477D00C20D78 /* UIImage+ImageEffects.m */; };
 		FCDB6E67914B485780E77E65 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6BC1C185D42238E7F9FCD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +124,9 @@
 		C96A60B0188603F000BCC067 /* MBProgressHud+UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHud+UIViewController.h"; sourceTree = "<group>"; };
 		C96A60B1188603F000BCC067 /* MBProgressHud+UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHud+UIViewController.m"; sourceTree = "<group>"; };
 		C96A60B3188610A900BCC067 /* FTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAdditions.h; sourceTree = "<group>"; };
+		C9BB3E8B188E477D00C20D78 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		C9BB3E8C188E477D00C20D78 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		C9BB3E91188F061900C20D78 /* FTDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTDebug.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +256,8 @@
 				9C653E3916E80FAD00B81430 /* NSString+UUID.m */,
 				9C653E3A16E80FAD00B81430 /* NSURLRequest+Debug.h */,
 				9C653E3B16E80FAD00B81430 /* NSURLRequest+Debug.m */,
+				C9BB3E8B188E477D00C20D78 /* UIImage+ImageEffects.h */,
+				C9BB3E8C188E477D00C20D78 /* UIImage+ImageEffects.m */,
 				9C653E3C16E80FAD00B81430 /* UIImage+ImageFromDiskNamed.h */,
 				9C653E3D16E80FAD00B81430 /* UIImage+ImageFromDiskNamed.m */,
 				9C653E3E16E80FAD00B81430 /* UIView+FTAdditions.h */,
@@ -293,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				9C653E0816E800BF00B81430 /* Categories */,
+				C9BB3E91188F061900C20D78 /* FTDebug.h */,
 				9C653E2F16E80FAD00B81430 /* FTNullOrEmpty.h */,
 				9C6CDB0616E82E3900498A67 /* FTUI.h */,
 				9C6CDB0716E82E3900498A67 /* FTUI.m */,
@@ -459,6 +466,7 @@
 				9C653E6316E816C600B81430 /* FTDefines.m in Sources */,
 				9C653E6716E816C600B81430 /* main.m in Sources */,
 				9C653E6B16E81E4800B81430 /* FTAnalytics.m in Sources */,
+				C9BB3E8D188E477D00C20D78 /* UIImage+ImageEffects.m in Sources */,
 				C96A60B2188603F000BCC067 /* MBProgressHud+UIViewController.m in Sources */,
 				9C653E6F16E81F2500B81430 /* FTApiClient.m in Sources */,
 				9C6CDB0416E82C3B00498A67 /* FTSessionManager.m in Sources */,

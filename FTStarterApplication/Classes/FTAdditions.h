@@ -11,5 +11,6 @@
 #import "FTCategories.h"
 #import "FTNullOrEmpty.h"
 #import "FTUI.h"
+#import "FTDebug.h"
 
 #endif

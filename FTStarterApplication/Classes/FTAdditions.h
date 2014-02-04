@@ -13,4 +13,7 @@
 #import "FTUI.h"
 #import "FTDebug.h"
 
+#import "UIImage+ImageEffects.h"
+#import "MBProgressHud+UIViewController.h"
+
 #endif

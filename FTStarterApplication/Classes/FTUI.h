@@ -9,8 +9,6 @@
 #define FTUIREF
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
-#import <CoreGraphics/CoreGraphics.h>
 
 #define RGB(r,g,b) ([UIColor colorWithRed:(r)/255. green:(g)/255. blue:(b)/255. alpha:1.0])
 #define RGBA(r,g,b,a) ([UIColor colorWithRed:(r)/255. green:(g)/255. blue:(b)/255. alpha:(a)/255.])i

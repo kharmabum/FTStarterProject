@@ -1,6 +1,6 @@
-#import "NSURLRequest+Debug.h"
+#import "NSURLRequest+FTAdditions.h"
 
-@implementation NSURLRequest (Debug)
+@implementation NSURLRequest (FTAdditions)
 - (void) logDebugData {
 	NSLog(@"Method: %@", self.HTTPMethod);
 	NSLog(@"URL: %@", self.URL.absoluteString);

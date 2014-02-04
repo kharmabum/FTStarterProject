@@ -1,9 +1,7 @@
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Accessing)
+@interface NSArray (FTAdditions)
 
-- (id)firstObject;
-- (id)randomObject;
 - (id)tryObjectAtIndex: (NSUInteger)index;
 
 @end

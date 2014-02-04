@@ -44,6 +44,7 @@
 		C94CE6001887389C00C5AE7E /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = C94CE5F31887389C00C5AE7E /* iTunesArtwork.png */; };
 		C94CE6011887389C00C5AE7E /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C94CE5F41887389C00C5AE7E /* iTunesArtwork@2x.png */; };
 		C96A60B2188603F000BCC067 /* MBProgressHud+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96A60B1188603F000BCC067 /* MBProgressHud+UIViewController.m */; };
+		C99FCE5D18A0BF9B00649D41 /* UIColor+FTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C99FCE5C18A0BF9B00649D41 /* UIColor+FTAdditions.m */; };
 		C9BB3E8D188E477D00C20D78 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BB3E8C188E477D00C20D78 /* UIImage+ImageEffects.m */; };
 		FCDB6E67914B485780E77E65 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6BC1C185D42238E7F9FCD /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -70,16 +71,14 @@
 		9C653E1116E80A4200B81430 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9C653E1316E80A5600B81430 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9C653E2F16E80FAD00B81430 /* FTNullOrEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNullOrEmpty.h; sourceTree = "<group>"; };
-		9C653E3016E80FAD00B81430 /* NSArray+Accessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Accessing.h"; sourceTree = "<group>"; };
-		9C653E3116E80FAD00B81430 /* NSArray+Accessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Accessing.m"; sourceTree = "<group>"; };
-		9C653E3416E80FAD00B81430 /* NSObject+PerformBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlock.h"; sourceTree = "<group>"; };
-		9C653E3516E80FAD00B81430 /* NSObject+PerformBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformBlock.m"; sourceTree = "<group>"; };
-		9C653E3616E80FAD00B81430 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
-		9C653E3716E80FAD00B81430 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
-		9C653E3A16E80FAD00B81430 /* NSURLRequest+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+Debug.h"; sourceTree = "<group>"; };
-		9C653E3B16E80FAD00B81430 /* NSURLRequest+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+Debug.m"; sourceTree = "<group>"; };
-		9C653E3C16E80FAD00B81430 /* UIImage+ImageFromDiskNamed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageFromDiskNamed.h"; sourceTree = "<group>"; };
-		9C653E3D16E80FAD00B81430 /* UIImage+ImageFromDiskNamed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageFromDiskNamed.m"; sourceTree = "<group>"; };
+		9C653E3016E80FAD00B81430 /* NSArray+FTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FTAdditions.h"; sourceTree = "<group>"; };
+		9C653E3116E80FAD00B81430 /* NSArray+FTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FTAdditions.m"; sourceTree = "<group>"; };
+		9C653E3416E80FAD00B81430 /* NSObject+FTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FTAdditions.h"; sourceTree = "<group>"; };
+		9C653E3516E80FAD00B81430 /* NSObject+FTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FTAdditions.m"; sourceTree = "<group>"; };
+		9C653E3A16E80FAD00B81430 /* NSURLRequest+FTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+FTAdditions.h"; sourceTree = "<group>"; };
+		9C653E3B16E80FAD00B81430 /* NSURLRequest+FTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+FTAdditions.m"; sourceTree = "<group>"; };
+		9C653E3C16E80FAD00B81430 /* UIImage+FTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FTAdditions.h"; sourceTree = "<group>"; };
+		9C653E3D16E80FAD00B81430 /* UIImage+FTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FTAdditions.m"; sourceTree = "<group>"; };
 		9C653E3E16E80FAD00B81430 /* UIView+FTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FTAdditions.h"; sourceTree = "<group>"; };
 		9C653E3F16E80FAD00B81430 /* UIView+FTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FTAdditions.m"; sourceTree = "<group>"; };
 		9C653E5E16E816C500B81430 /* FTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDefines.h; sourceTree = "<group>"; };
@@ -122,6 +121,8 @@
 		C96A60B0188603F000BCC067 /* MBProgressHud+UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHud+UIViewController.h"; sourceTree = "<group>"; };
 		C96A60B1188603F000BCC067 /* MBProgressHud+UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHud+UIViewController.m"; sourceTree = "<group>"; };
 		C96A60B3188610A900BCC067 /* FTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAdditions.h; sourceTree = "<group>"; };
+		C99FCE5B18A0BF9B00649D41 /* UIColor+FTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FTAdditions.h"; sourceTree = "<group>"; };
+		C99FCE5C18A0BF9B00649D41 /* UIColor+FTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FTAdditions.m"; sourceTree = "<group>"; };
 		C9BB3E8B188E477D00C20D78 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		C9BB3E8C188E477D00C20D78 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		C9BB3E91188F061900C20D78 /* FTDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTDebug.h; sourceTree = "<group>"; };
@@ -244,18 +245,18 @@
 		9C653E0816E800BF00B81430 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				9C653E3016E80FAD00B81430 /* NSArray+Accessing.h */,
-				9C653E3116E80FAD00B81430 /* NSArray+Accessing.m */,
-				9C653E3416E80FAD00B81430 /* NSObject+PerformBlock.h */,
-				9C653E3516E80FAD00B81430 /* NSObject+PerformBlock.m */,
-				9C653E3616E80FAD00B81430 /* NSObject+Swizzle.h */,
-				9C653E3716E80FAD00B81430 /* NSObject+Swizzle.m */,
-				9C653E3A16E80FAD00B81430 /* NSURLRequest+Debug.h */,
-				9C653E3B16E80FAD00B81430 /* NSURLRequest+Debug.m */,
+				9C653E3016E80FAD00B81430 /* NSArray+FTAdditions.h */,
+				9C653E3116E80FAD00B81430 /* NSArray+FTAdditions.m */,
+				9C653E3416E80FAD00B81430 /* NSObject+FTAdditions.h */,
+				9C653E3516E80FAD00B81430 /* NSObject+FTAdditions.m */,
+				9C653E3A16E80FAD00B81430 /* NSURLRequest+FTAdditions.h */,
+				9C653E3B16E80FAD00B81430 /* NSURLRequest+FTAdditions.m */,
 				C9BB3E8B188E477D00C20D78 /* UIImage+ImageEffects.h */,
 				C9BB3E8C188E477D00C20D78 /* UIImage+ImageEffects.m */,
-				9C653E3C16E80FAD00B81430 /* UIImage+ImageFromDiskNamed.h */,
-				9C653E3D16E80FAD00B81430 /* UIImage+ImageFromDiskNamed.m */,
+				9C653E3C16E80FAD00B81430 /* UIImage+FTAdditions.h */,
+				C99FCE5B18A0BF9B00649D41 /* UIColor+FTAdditions.h */,
+				C99FCE5C18A0BF9B00649D41 /* UIColor+FTAdditions.m */,
+				9C653E3D16E80FAD00B81430 /* UIImage+FTAdditions.m */,
 				9C653E3E16E80FAD00B81430 /* UIView+FTAdditions.h */,
 				9C653E3F16E80FAD00B81430 /* UIView+FTAdditions.m */,
 				C96A60B0188603F000BCC067 /* MBProgressHud+UIViewController.h */,
@@ -459,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C653E0116E8005B00B81430 /* FTAppDelegate.m in Sources */,
+				C99FCE5D18A0BF9B00649D41 /* UIColor+FTAdditions.m in Sources */,
 				9C653E6316E816C600B81430 /* FTDefines.m in Sources */,
 				9C653E6716E816C600B81430 /* main.m in Sources */,
 				9C653E6B16E81E4800B81430 /* FTAnalytics.m in Sources */,

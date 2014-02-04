@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface NSURLRequest (Debug)
+@interface NSURLRequest (FTAdditions)
 
 - (void) logDebugData;
 

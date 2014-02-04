@@ -10,8 +10,8 @@
 
 #pragma mark - API
 
-extern NSString *const kCDIAPIClientID;
-extern NSString *const kCDIAPIClientSecret;
+extern NSString *const kFTAPIClientID;
+extern NSString *const kFTAPIClientSecret;
 
 #pragma mark - Fonts
 

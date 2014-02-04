@@ -18,10 +18,13 @@
 @interface FTUI : NSObject
 
 + (UIFont *)fontWithName:(NSString *)fontName size:(CGFloat)fontSize;
+
 + (void)clearFontCache;
 
 + (UIColor *)colorFromHex:(int)colorInHex;
+
 + (UIColor *)colorFromHex:(int)colorInHex alpha:(CGFloat)alpha;
+
 + (void)clearColorCache;
 
 + (NSString *)ordinalSuffixFromNumber:(NSUInteger)n;
